@@ -1,0 +1,2 @@
+https://api.ovh.com/1.0/dedicated/server/availabilities?country=FR&hardware=1801sk14
+https://www.kimsufi.com/fr/commande/kimsufi.xml?reference=1801sk14

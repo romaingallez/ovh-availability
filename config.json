@@ -1,0 +1,11 @@
+{
+    "servers": ["1801sk14", "1801sk13", "1801sk12"],
+    "region": "europe",
+    "notifier": "email",
+    "email_sender": "sender@exemple.com",
+    "email_password": "",
+    "smtp_host": "smtp.exemple.com",
+    "email_receiver": "me@domain.com",
+    "email_port": "987",
+    "email_subject": ""
+}
