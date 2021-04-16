@@ -1,5 +1,5 @@
 {
-    "servers": ["1801sk14", "1801sk13", "1801sk12"],
+    "servers": ["1801sk14", "1801sk13", "1801sk12", "1801sk18"],
     "region": "europe",
     "notifier": "email",
     "email_sender": "sender@exemple.com",
