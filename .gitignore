@@ -18,3 +18,5 @@ tmp/
 .env
 
 *.json
+
+*.db
