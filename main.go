@@ -4,6 +4,7 @@ import (
 	"log"
 	"os"
 	"ovh-availability/api"
+	"ovh-availability/database"
 
 	"github.com/joho/godotenv"
 )
@@ -17,9 +18,15 @@ func main() {
 	if err != nil {
 		log.Fatal("Error loading .env file")
 	}
+	database.ConnectDB()
 
-	token := os.Getenv("DISCORD_TOKEN")
+	var runParsing bool = true
+	if runParsing {
+		token := os.Getenv("DISCORD_TOKEN")
 
-	config := GetConfig()
-	api.Parsing(config, token)
+		config := GetConfig()
+
+		api.Parsing(config, token)
+	}
+
 }
